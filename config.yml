@@ -1,0 +1,5 @@
+database:
+  dsn: host=localhost port=5432 sslmode=disable user=n.thongjor dbname=bookstore password=
+  logLevel: Info
+secretKey: MY_SECRET
+port: 5678

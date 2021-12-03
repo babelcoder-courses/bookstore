@@ -1,0 +1,17 @@
+{
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+      "--fast"
+    ],
+    "go.testFlags": ["-v"],
+    "go.testEnvVars": {"APP_ENV": "test"},
+    "gopls": {
+      "build.buildFlags": ["-tags=mage,tools"]
+    },
+    "[jsonc]": {
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2,
+    },
+    "thunder-client.loadFromProject": true,
+  }
+    
